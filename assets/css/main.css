@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #b3b5b7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -144,7 +144,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #70777e;
 	}
 
 	body, input, select, textarea {
@@ -2495,7 +2495,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/TR/SVG2' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
 	}
 
 		select option {
@@ -3549,7 +3549,7 @@ input, select, textarea {
 		}
 
 		#header code {
-			background: rgba(255, 255, 255, 0.075);
+			background: rgba(222, 220, 220, 0.075);
 			border-color: #ffffff;
 		}
 
@@ -4686,4 +4686,61 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+	
+	.image.main {
+		width: 65%; /* Adjust image width */
+		height: auto; /* Maintain aspect ratio */
+		float: left; /* Float image to the left */
+		margin-right: 2em; /* Add some margin to the right for spacing */
+	}
+	
+	#main {
+		max-width: 600%;
+		overflow-y: auto; /* Allow vertical scrolling for the whole content */
+		padding: 2em 2em 2em 0; /* Adjust padding (top, right, bottom, left) to create space */
+	}
+	
+	.centered-container {
+		text-align: left;
+	}
+
+	main {
+		background-color: #f0f0f0; /* Change the background color of the main content area */
+	}
+
+	.right-text {
+		/* Float the right text elements to the right */
+		float: right;
+	  }
+	  .cv-circle {
+		display: inline-block;
+		width: 40px;               /* Circle width */
+		height: 40px;              /* Circle height */
+		background-color: white;   /* White background for the circle */
+		color: black;              /* Black text for "CV" */
+		text-align: center;        /* Center the text horizontally */
+		line-height: 40px;         /* Vertically center the text */
+		border-radius: 50%;        /* Make it a perfect circle */
+		font-size: 12px;           /* Font size for the text */
+		font-weight: bold;         /* Make text bold */
+		text-decoration: none;     /* Remove underline from the link */
+		border: 4px solid lightgray;
+	}
+	  
+	  .cv-circle i {
+		font-size: 16px;           /* Icon size */
+	  }
+	  
+	  .cv-circle .label {
+		display: inline-block;
+		vertical-align: middle;    /* Center the text vertically */
+		color: grey;
+		font-size: 10px;           /* Smaller font size for the "CV" text */
+	  }
+	  
+	  .cv-circle:hover {
+		background-color: white;   /* Change background to black on hover */
+		color: black;              /* Change text color to white on hover */
+		border: 2px solid lightblue; 
 	}
